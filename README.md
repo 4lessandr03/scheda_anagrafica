@@ -53,24 +53,6 @@ Citta: Napoli
 
 Per compilare il programma è necessario disporre di un compilatore C++ come GCC.
 
-Aprire il terminale nella cartella del progetto ed eseguire:
-
-```bash
-g++ main.cpp -o esercizio01
-```
-
-Per avviare il programma:
-
-**Linux / macOS**
-```bash
-./esercizio01
-```
-
-**Windows**
-```bash
-esercizio01.exe
-```
-
 ## 📚 Contesto del progetto
 
 Questo esercizio fa parte del mio percorso personale di apprendimento del C++.
