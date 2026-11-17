@@ -1,80 +1,84 @@
-# C++ Exercise 01 – Personal Information
+# Esercizio 01 – Scheda anagrafica in C++
 
-## 📌 Description
+## 📌 Descrizione
 
-This is my first practical C++ exercise, developed to practice the fundamental concepts of the C++ programming language.
+Questo progetto è il primo esercizio pratico del mio percorso di apprendimento del linguaggio C++.
 
-The application collects personal information from the user and displays it in a simple summary.
+L'applicazione permette all'utente di inserire alcune informazioni personali e successivamente visualizzarle attraverso un riepilogo nella console.
 
-## 🎯 Learning Objectives
+Il progetto è stato realizzato con l'obiettivo di mettere in pratica i concetti fondamentali della programmazione in C++.
 
-- Understand basic C++ syntax.
-- Declare and initialize variables.
-- Work with different data types (`int`, `std::string`).
-- Use `std::cin` and `std::cout` for input and output.
-- Read complete lines using `std::getline()`.
-- Understand basic input buffer management with `std::cin.ignore()`.
+## 🎯 Obiettivi didattici
 
-## ⚙️ Features
+- Comprendere la sintassi di base del C++.
+- Dichiarare e utilizzare variabili.
+- Conoscere i principali tipi di dati (`int`, `std::string`).
+- Utilizzare `std::cin` e `std::cout` per input e output.
+- Acquisire intere righe di testo attraverso `std::getline()`.
+- Comprendere la gestione iniziale del buffer di input tramite `std::cin.ignore()`.
 
-The application asks the user to enter:
+## ⚙️ Funzionalità
 
-- First name
-- Last name
-- Age
-- City of residence
+Il programma richiede all'utente di inserire:
 
-It then displays the collected information in the console.
+- Nome
+- Cognome
+- Età
+- Città di residenza
 
-## 💻 Example
+Al termine dell'inserimento, le informazioni vengono mostrate attraverso un riepilogo nella console.
+
+## 💻 Esempio di esecuzione
 
 ```text
-Enter your first name: Alessandro
-Enter your last name: Rossi
-Enter your age: 26
-Enter your city: Naples
+Inserisci il tuo nome: Alessandro
+Inserisci il tuo cognome: Rossi
+Inserisci la tua eta: 26
+Inserisci la tua citta di residenza: Napoli
 
---- USER INFORMATION ---
-Name: Alessandro
-Surname: Rossi
-Age: 26
-City: Naples
+--- SCHEDA UTENTE ---
+Nome: Alessandro
+Cognome: Rossi
+Eta: 26
+Citta: Napoli
 ```
 
-## 🛠️ Technologies
+## 🛠️ Tecnologie utilizzate
 
-- Language: C++
-- Standard Library: iostream, string
-- Application type: Console Application
+- **Linguaggio:** C++
+- **Librerie:** iostream, string
+- **Tipologia:** Applicazione console
 
-## 🚀 How to Run
+## 🚀 Compilazione ed esecuzione
 
-Compile the source file using a C++ compiler:
+Per compilare il programma è necessario disporre di un compilatore C++ come GCC.
+
+Aprire il terminale nella cartella del progetto ed eseguire:
 
 ```bash
-g++ main.cpp -o exercise01
+g++ main.cpp -o esercizio01
 ```
 
-Run the executable:
+Per avviare il programma:
 
 **Linux / macOS**
 ```bash
-./exercise01
+./esercizio01
 ```
 
 **Windows**
 ```bash
-exercise01.exe
+esercizio01.exe
 ```
 
-## 📚 Project Context
+## 📚 Contesto del progetto
 
-This project is part of my personal C++ learning journey.
+Questo esercizio fa parte del mio percorso personale di apprendimento del C++.
 
-The goal is to progressively develop programming skills through practical exercises, starting with basic syntax and moving towards more advanced programming concepts.
+L'obiettivo è consolidare progressivamente le conoscenze attraverso esercizi pratici, partendo dai concetti fondamentali fino ad arrivare ad argomenti più avanzati della programmazione.
 
 ---
 
-**Status:** Completed  
-**Difficulty:** Beginner  
-**Exercise:** 01 – Basic Syntax and Variables
+**Stato:** Completato  
+**Difficoltà:** Principiante  
+**Numero esercizio:** 01 – Sintassi di base e variabili
